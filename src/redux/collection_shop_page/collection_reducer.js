@@ -1,14 +1,14 @@
-import SHOPDATA from "./shop_data";
+import SHOP_DATA from "./shop_data";
 
 const INITIAL_STATE = {
-  collection: SHOPDATA,
+  collections: SHOP_DATA,
 };
 
-const collectionReducer = (state = INITIAL_STATE, action) => {
+const shopReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     default:
       return state;
   }
 };
 
-export default collectionReducer;
+export default shopReducer;
